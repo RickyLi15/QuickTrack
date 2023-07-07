@@ -1,0 +1,48 @@
+.events {
+    margin: 2rem auto;
+    max-width: 40rem;
+  }
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  
+ 
+  }
+  
+  .list {
+   
+
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .item a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    background-color: darkseagreen;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .item a:hover {
+    transform: scale(1.02);
+    background-color: rgb(40, 38, 38);
+  }
+  
+  .item img {
+    width: 33%;
+    object-fit: cover;
+   
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+  .item h2 {
+    margin: 0 0 1rem 0;
+  }
+
+  

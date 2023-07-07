@@ -1,0 +1,18 @@
+Homepage - introduces client to the web app, provides the client with links
+to plan their workout and an instruction page.
+
+
+Instruction page - describe to the client what exactly this app is about.
+
+
+
+planning page - links to different parts of an exercise such as upper body,
+lower body, core, etc. Each one of these pages contain specific workouts that the 
+user can add to their day 
+
+
+statistics page - displays the information about a certain client, such 
+as total calories burned, height, and weight
+
+
+
