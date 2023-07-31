@@ -238,6 +238,18 @@ app.get('/details/w8', (req,res) => {
 )})
 
 
+app.get('/details/w9', (req,res) => {
+    res.json( {"name": "Corkscrew Stretch",
+    "image": "https://i.pinimg.com/736x/08/20/5a/08205a5e06f53b7bb3e412a434c4ffb3--bed-workout-pilates-workout.jpg", 
+    "description":"The corkscrew works the abdominal muscles, especially the obliques (the sides of the body). It stretches the hip flexors and massages the lower back. This exercise also challenges the adductor muscles of the inner thighs as you press and hold your legs together throughout.", 
+    "calories": "0.3",
+    "id":"w9"}
+       ,
+  
+
+)})
+
+
 
 
 app.get('/api', (req,res) => {
@@ -292,6 +304,10 @@ app.get('/workouts/e3', (req,res) => {
      "image": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/12/pull-up-pullup-gym-1296x728-header-1296x728.jpg?w=1155&h=1528", 
      "descrption":" It's always a good idea to have an overhead pulling movement in your back routine, and the pull-up is one of the best. Each variation has its own advantages: Wide-grip variations are great for the upper lats, while close-grip chins or neutral-grip pull-ups have a greater stretch and overall range of motion.", 
      "id":"w6"},
+     {"name": "Corkscrew Stretch",
+     "image": "https://i.pinimg.com/736x/08/20/5a/08205a5e06f53b7bb3e412a434c4ffb3--bed-workout-pilates-workout.jpg", 
+     "descrption":"The corkscrew works the abdominal muscles, especially the obliques (the sides of the body). It stretches the hip flexors and massages the lower back. This exercise also challenges the adductor muscles of the inner thighs as you press and hold your legs together throughout.", 
+     "id":"w9"},
   
 
 ])})
