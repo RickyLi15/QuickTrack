@@ -9,7 +9,7 @@ const PlanPage = (props) => {
   const cartItems = useSelector(state => state.planner.workouts);
 
   return (
-    <Card className={classes.cart}>
+    <Card className={classes.workout}>
       <h2>Your Workout Plan</h2>
       <ul>
         {cartItems.map((item) => (
